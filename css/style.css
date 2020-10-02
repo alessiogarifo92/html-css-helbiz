@@ -21,9 +21,6 @@ img {
   padding: 2px;
 }
 
-.row{
-  max-width: 100%;
-}
 .centra-head-foot{
   padding: 0 10%;
 }
@@ -41,6 +38,7 @@ header {
   width: 100%;
   height: auto;
   z-index: 900;
+  background-color: white;
 }
 
 #logo{
@@ -48,8 +46,11 @@ header {
   padding-left: 29%;
 }
 
-header a{
+a{
   text-decoration: none;
+}
+
+header a{
   color: black;
 }
 
@@ -91,7 +92,7 @@ h1{
 /* regole corpo pagina */
 
 .centra-sez1 {
-  padding: 5% 5%;
+  padding: 5% 5% 0;
 }
 
 .back-grey{
@@ -102,14 +103,55 @@ h1{
   width: 45%;
 }
 
-.back-grey > a{
-  text-decoration: none;
-}
-
 .back-grey > img{
   height: 454px;
 }
 
 .centra-sez1 > .row:first-child .back-grey{
   margin-right: 5%;
+}
+
+#monopattino-rimini{
+  background-image: url(../img/helbiz-rimini.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+#monopattino-rimini > div{
+  text-align: center;
+  padding-top: 185px;
+  padding-right: 48px;
+  color: white;
+  font-size: 1.15em;
+}
+
+#monopattino-rimini > div > h2,
+#monopattino-rimini > div > p{
+  padding-bottom: 30px;
+}
+
+#monopattino-rimini a{
+  color: white;
+}
+
+#imgcell{
+  background-image: url(../img/imgcell2.png);
+  margin-right: 10%;
+  background-color: #41566a;
+  background-position: bottom;
+}
+
+#washington{
+  background-image: url(../img/washington.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#imgcell,
+#washington{
+  background-repeat: no-repeat;
+  min-height: 640px;
+  width: 45%;
 }
