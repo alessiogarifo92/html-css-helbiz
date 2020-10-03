@@ -14,11 +14,11 @@ img {
 
 
 /* regole di debug */
-[class*="col-"] {
+/* [class*="col-"] {
   min-height: 30px;
   background-color: lightgreen;
   border: solid 1px  #000;
-  padding: 2px;
+  padding: 2px; */
 }
 
 .centra-head-foot{
@@ -283,7 +283,7 @@ footer .row:nth-child(2){
 
 @media all and (min-width: 769px) and (max-width: 992px){
   ul{
-    padding-left: 118px;
+    padding-left: 25%;
   }
 
   li{
@@ -291,7 +291,7 @@ footer .row:nth-child(2){
   }
 
   #logo{
-    padding-left: 346px;
+    padding-left: 50%;
     height: 200px;
   }
 
