@@ -48,6 +48,7 @@ header {
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 header a{
@@ -93,6 +94,7 @@ h1{
 
 .centra-sez1 {
   padding: 5% 5% 0;
+  margin-bottom: 30px;
 }
 
 .back-grey{
@@ -109,6 +111,26 @@ h1{
 
 .centra-sez1 > .row:first-child .back-grey{
   margin-right: 5%;
+}
+
+#back-anziano{
+  background-image: url(../img/anziano.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+}
+
+#iphone{
+  margin-top: 55%;
+  height: 500px;
+  width: 340px;
+}
+
+.scritte-iphone{
+  max-height: 200px;
+  text-align: center;
+  padding-top: 70px;
 }
 
 #monopattino-rimini{
@@ -143,6 +165,16 @@ h1{
   background-position: bottom;
 }
 
+#imgcell > h2,
+#washington > h2{
+  margin: 40px auto 25px;
+}
+
+#imgcell > p,
+#washington > p{
+  margin-bottom: 15px;
+}
+
 #washington{
   background-image: url(../img/washington.jpg);
   background-position: center;
@@ -154,4 +186,7 @@ h1{
   background-repeat: no-repeat;
   min-height: 640px;
   width: 45%;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
 }
